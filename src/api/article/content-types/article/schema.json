@@ -26,10 +26,7 @@
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "image": {
@@ -45,6 +42,32 @@
     },
     "date": {
       "type": "date"
+    },
+    "meta": {
+      "type": "json"
+    },
+    "geome7ric": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "videos": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "documents": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
