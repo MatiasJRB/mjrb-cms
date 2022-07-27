@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-04-10T12:07:47.668Z"
+    "x-generation-date": "2022-07-27T18:51:26.720Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1581,6 +1581,9 @@
                               },
                               "description": {
                                 "type": "string"
+                              },
+                              "featured": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3674,6 +3677,9 @@
                             "description": {
                               "type": "string"
                             },
+                            "featured": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4218,6 +4224,9 @@
                       },
                       "description": {
                         "type": "string"
+                      },
+                      "featured": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
@@ -5791,6 +5800,9 @@
                             },
                             "description": {
                               "type": "string"
+                            },
+                            "featured": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7793,6 +7805,9 @@
                             "description": {
                               "type": "string"
                             },
+                            "featured": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -8348,6 +8363,9 @@
                       },
                       "description": {
                         "type": "string"
+                      },
+                      "featured": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",

@@ -1532,6 +1532,9 @@
                               "description": {
                                 "type": "string"
                               },
+                              "featured": {
+                                "type": "boolean"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3624,6 +3627,9 @@
                             "description": {
                               "type": "string"
                             },
+                            "featured": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4168,6 +4174,9 @@
                       },
                       "description": {
                         "type": "string"
+                      },
+                      "featured": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
@@ -5741,6 +5750,9 @@
                             },
                             "description": {
                               "type": "string"
+                            },
+                            "featured": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7743,6 +7755,9 @@
                             "description": {
                               "type": "string"
                             },
+                            "featured": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -8298,6 +8313,9 @@
                       },
                       "description": {
                         "type": "string"
+                      },
+                      "featured": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
